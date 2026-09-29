@@ -1,7 +1,7 @@
 #include "driver/gpio.h"         // gpio_set_level(), gpio_get_level()
 
-#define RED_GPIO GPIO_NUM_25
-#define GREEN_GPIO GPIO_NUM_26
+#define RED_GPIO GPIO_NUM_2
+#define GREEN_GPIO GPIO_NUM_15
 
 void led_init(void) {
     gpio_reset_pin(RED_GPIO);
